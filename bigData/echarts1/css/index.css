@@ -1,0 +1,428 @@
+@charset "UTF-8";
+/* CSS Document */
+body, p, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, td, input, select, textarea, img {
+  margin: 0;
+  padding: 0; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500; }
+
+html, body {
+  color: white; 
+  height:100%;
+}
+
+body {
+  font-family: "微软雅黑", "黑体","宋体", Arial, Helvetica, sans-serif;
+  background: url(../img/bg.png) no-repeat;
+  background-size: 100% 100%; }
+
+a {
+  text-decoration: none; }
+
+ul, li {
+  list-style: none; }
+
+img {
+  border: none; }
+
+.header {
+  height: 60px;
+  background: url(../img/bgh.png) no-repeat;
+  background-size: 100%;
+  line-height: 60px; 
+}
+.header h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+.dataLeft {
+  box-sizing: border-box;
+  width: 33%;
+  float: left;
+  padding: 0 20px;
+}
+.dataLeft .data1 h4 {
+  font-size: 16px;
+  line-height: 25px; 
+}
+.dataLeft .data1 div:first-of-type {
+  width: 33%;
+  float: left; 
+}
+.dataLeft .data1 div:first-of-type table {
+  width: 100%;
+  margin-top: 5px;
+  background: #062250;
+  font-size: 12px; 
+}
+.dataLeft .data1 div:first-of-type table tr th {
+  font-weight: 300;
+  padding: 3px 5px; 
+}
+.dataLeft .data1 div:first-of-type table tr td {
+  text-align: center;
+  font-weight: 300;
+  padding: 3px 10px; 
+}
+.dataLeft .data1 div:first-of-type table tr:nth-of-type(2) td, .dataLeft .data1 div:first-of-type table tr:nth-of-type(3) td, .dataLeft .data1 div:first-of-type table tr:nth-of-type(4) td {
+  color: #00f0ff; 
+}
+.dataLeft .data1 div:nth-of-type(2) {
+  margin-left: 5px;
+  width: 65%;
+  float: left; 
+}
+.dataLeft .data1 div:nth-of-type(2) h4 {
+  font-size: 18px;
+  line-height: 25px; 
+}
+.dataLeft .data1 div:nth-of-type(2) .tit {
+  width: 100%;
+  overflow: hidden; 
+}
+.dataLeft .data1 div:nth-of-type(2) .tit .one {
+  width: 24%;
+  font-size: 10px;
+  float: left;
+  text-align: center;
+  margin: 1px; 
+}
+.dataLeft .data1 div:nth-of-type(2) .tit .one span {
+  font-size: 14px;
+  color: #00f0ff; 
+}
+.dataLeft .data1 div:nth-of-type(2) .tit .one p {
+  color: #ccc; 
+}
+.dataLeft .data1 div:nth-of-type(2) #keliu {
+  margin-top: 5px;
+  width: 100%;
+  height: 180px; 
+}
+.dataLeft .data2 {
+  clear: both; 
+}
+.dataLeft .data2 h4 {
+  font-size: 16px;
+  line-height: 30px; 
+}
+.dataLeft .data2 div table {
+  width: 100%;
+  margin-top: 5px;
+  background: #062250;
+  font-size: 12px; 
+}
+.dataLeft .data2 div table tr th {
+  font-size: 14px;
+  color: #fff000;
+  font-weight: 600; 
+}
+.dataLeft .data2 div table tr td {
+  text-align: center;
+  font-weight: 300;
+  padding: 3px; 
+}
+.dataLeft .data2 div table tr td .cover {
+  float: left;
+  width: 75%;
+  height: 7px;
+  border-radius: 6px;
+  padding: 3px;
+  border: 1px solid #1fbbff;
+  position: relative; 
+}
+.dataLeft .data2 div table tr td .cover span {
+  position: absolute;
+  left: 2px;
+  top: 3px;
+  border-radius: 3px;
+  display: inline-block;
+  width: 78%;
+  height: 6px;
+  background: #1fbbff; 
+}
+.dataLeft .data2 div table tr td .cover .s1 {
+  width: 98%; 
+}
+.dataLeft .data2 div table tr td span {
+  font-size: 14px;
+  font-weight: 900;
+  color: #00d3ff; 
+}
+.dataLeft .data2 div table tr td span img {
+  height: 15px; 
+}
+.dataLeft .data2 div table tr td:nth-of-type(3n+1) {
+  width: 60%; 
+}
+.dataLeft .data2 div table tr td:nth-of-type(3n) {
+  width: 15%; 
+}
+.dataLeft .data2 div table tr td:nth-of-type(3n+2) {
+  width: 15%; 
+}
+  .dataLeft .data3 {
+    clear: both; }
+    .dataLeft .data3 h4 {
+      font-size: 16px;
+      line-height: 30px; }
+    .dataLeft .data3 table {
+      width: 100%;
+      margin-top: 5px;
+      background: #062250;
+      font-size: 12px; }
+      .dataLeft .data3 table tr th {
+        font-size: 13px;
+        font-weight: 400;
+        padding-bottom: 5px;
+        border-bottom: 1px dashed #184880; }
+      .dataLeft .data3 table tr td {
+        text-align: center;
+        font-weight: 300;
+        padding: 3px;
+        color: #00daff;
+        padding-bottom: 5px;
+        border-bottom: 1px dashed #184880; }
+      .dataLeft .data3 table tr td:nth-of-type(5n+1) {
+        color: #fff000;
+        font-weight: 600; }
+
+.dataCenter {
+  float: left;
+  width: 37%;
+  box-sizing: border-box; }
+  .dataCenter .datatit {
+    width: 100%;
+    overflow: hidden; }
+    .dataCenter .datatit .data1 {
+      box-sizing: border-box;
+      width: 32%;
+      margin: 2px 2px;
+      float: left;
+      padding: 10px 20px;
+      border: 1px solid #47b3fe;
+      box-sizing: border-box;
+      text-align: center; }
+      .dataCenter .datatit .data1 p {
+        font-size: 12px;
+        color: #fff000; }
+      .dataCenter .datatit .data1 span {
+        font-size: 18px;
+        font-weight: 900; }
+    .dataCenter .datatit .data2 {
+      box-sizing: border-box;
+      width: 32%;
+      margin: 2px 2px;
+      float: left;
+      padding: 15px 5px;
+      border: 1px solid #47b3fe;
+      box-sizing: border-box;
+      text-align: center;
+      overflow: hidden; }
+      .dataCenter .datatit .data2 p {
+        float: left;
+        width: 34%;
+        font-size: 12px;
+        color: #fff000; }
+      .dataCenter .datatit .data2 span {
+        float: left;
+        width: 66%;
+        font-size: 18px;
+        font-weight: 900;
+        color: #00daff; }
+    .dataCenter .datatit .data3 {
+      box-sizing: border-box;
+      width: 32%;
+      margin: 2px 2px;
+      float: left;
+      padding: 5px 3px;
+      border: 1px solid #47b3fe;
+      box-sizing: border-box;
+      overflow: hidden; }
+      .dataCenter .datatit .data3 p {
+        font-size: 12px; }
+      .dataCenter .datatit .data3 span {
+        font-size: 10px;
+        display: block;
+        overflow: hidden; }
+        .dataCenter .datatit .data3 span img {
+          display: block;
+          padding-top: 2px;
+          width: 56%;
+          height: 15px;
+          float: left; }
+        .dataCenter .datatit .data3 span span {
+          padding: -0 2px;
+          margin-top: 2px;
+          display: inline-block;
+          font-size: 10px;
+          float: left; }
+        .dataCenter .datatit .data3 span span:nth-of-type(2) {
+          color: #01d8fe; }
+      .dataCenter .datatit .data3 span:nth-child(3) span:nth-of-type(2) {
+        color: #f2da62; }
+      .dataCenter .datatit .data3 span:nth-child(4) span:nth-of-type(2) {
+        color: #77ff89; }
+  .dataCenter .center {
+    width: 100%; }
+    .dataCenter .center #map {
+      width: 100%;
+      height: 300px; }
+      .dataCenter .center #map img {
+        width: 100%;
+        height: 100%; }
+  .dataCenter .datafooter {
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #47b3fe; }
+    .dataCenter .datafooter .tit {
+      background: #06306d;
+      overflow: hidden;
+      padding: 2px 8px; }
+      .dataCenter .datafooter .tit h4 {
+        float: left;
+        font-size: 16px; }
+        .dataCenter .datafooter .tit h4 span {
+          font-size: 12px;
+          color: #ccc; }
+      .dataCenter .datafooter .tit img {
+        float: right;
+        height: 20px; }
+    .dataCenter .datafooter .content {
+      width: 100%;
+      overflow: hidden; }
+      .dataCenter .datafooter .content .cL {
+        width: 24%;
+        text-align: center;
+        float: left; }
+        .dataCenter .datafooter .content .cL p:first-of-type {
+          margin-top: 10px;
+          font-size: 22px;
+          color: #fff000; }
+        .dataCenter .datafooter .content .cL p:last-of-type {
+          font-size: 12px; }
+        .dataCenter .datafooter .content .cL span {
+          display: inline-block;
+          width: 20%;
+          height: 12px;
+          margin: 2px;
+          background: #17fdc9; }
+      .dataCenter .datafooter .content .cone {
+        width: 24%;
+        float: left;
+        text-align: center; }
+        .dataCenter .datafooter .content .cone p {
+          margin-top: 20px;
+          font-size: 12px; }
+        .dataCenter .datafooter .content .cone #g1 {
+          width: 100%;
+          height: 90px; }
+        .dataCenter .datafooter .content .cone #g2 {
+          width: 100%;
+          height: 90px; }
+        .dataCenter .datafooter .content .cone #g3 {
+          width: 100%;
+          height: 90px; }
+
+.dataRight {
+  float: left;
+  width: 30%;
+  box-sizing: border-box;
+  padding: 0 10px; }
+  .dataRight .data4 {
+    width: 100%; }
+    .dataRight .data4 h4 {
+      font-size: 16px;
+      line-height: 25px; }
+    .dataRight .data4 .tit {
+      width: 100%;
+      overflow: hidden; }
+      .dataRight .data4 .tit .one {
+        width: 24%;
+        font-size: 10px;
+        float: left;
+        text-align: center;
+        margin: 1px; }
+        .dataRight .data4 .tit .one span {
+          font-size: 14px;
+          color: #00f0ff; }
+        .dataRight .data4 .tit .one p {
+          color: #ccc; }
+    .dataRight .data4 #yewu {
+      margin-top: 5px;
+      width: 100%;
+      height: 220px; }
+  .dataRight .data5 {
+    overflow: hidden; }
+    .dataRight .data5 h4 {
+      font-size: 16px;
+      line-height: 25px; }
+    .dataRight .data5 .dataone {
+      margin-top: 5px;
+      position: relative;
+      background: #062557;
+      float: left;
+      width: 25%;
+      height: 100px;
+      padding-bottom: 5px; }
+      .dataRight .data5 .dataone #bumen1 {
+        width: 100%;
+        height: 100px; }
+      .dataRight .data5 .dataone #bumen2 {
+        height: 100px;
+        width: 100%; }
+      .dataRight .data5 .dataone #bumen3 {
+        width: 100%;
+        height: 100px; }
+      .dataRight .data5 .dataone #bumen4 {
+        width: 100%;
+        height: 100px; }
+      .dataRight .data5 .dataone p {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        font-size: 12px; }
+  .dataRight .data6 {
+    margin-top: 10px;
+    background: #062250; }
+    .dataRight .data6 h4 {
+      font-size: 16px;
+      line-height: 25px; }
+    .dataRight .data6 table {
+      padding: 8px;
+      width: 100%;
+      margin-top: 6px;
+      border-bottom: 1px dashed #41a1eb;
+      font-size: 12px; }
+      .dataRight .data6 table tr th {
+        font-size: 14px;
+        color: white;
+        font-weight: 600; }
+        .dataRight .data6 table tr th img {
+          height: 14px; }
+      .dataRight .data6 table tr td {
+        text-align: center;
+        font-weight: 300;
+        padding: 3px;
+        color: #17fdc9; }
+        .dataRight .data6 table tr td img {
+          display: inline-block;
+          height: 14px; }
+        .dataRight .data6 table tr td span {
+          font-size: 20px;
+          font-weight: 600; }
+      .dataRight .data6 table tr th:first-of-type {
+        color: #fff000; }
+      .dataRight .data6 table tr td:first-of-type {
+        color: #00daff; }
+
+@media screen and (max-width: 1070px) {
+  .dataLeft {
+    width: 100% !important; }
+  .dataCenter {
+    width: 100% !important; }
+  .dataRight {
+    width: 100% !important; } }
