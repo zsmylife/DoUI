@@ -1,0 +1,187 @@
+@charset "utf-8";
+/*css document*/
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,td,input,select,option,textarea{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size: 27.78vw;
+}
+html,body{
+    height: 100%;
+}
+body{
+    font-family:"微软雅黑";
+    display: -webkit-flex;
+    -webkit-flex-direction:column;
+}
+ul,ol{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+img{
+    border:none;
+    display: block;
+}
+/*头部*/
+header{
+    width:100%;
+}
+.userName {
+    display: flex;
+    height: .45rem;
+    border-bottom: 1px solid #f5f5f5;
+}
+.userName h1{
+    font-size: .14rem;
+    line-height: .45rem;
+    font-weight: 600;
+    margin-left: 1.6rem;
+}
+.userName img{
+    margin-left: 1.2rem;
+    margin-top: .11rem;
+    width:.3rem;
+    height: .23rem;
+}
+/*关注内容部分*/
+section{
+    width: 100%;
+    background:#f5f5f5;
+    flex: 1;
+    overflow-y:auto;
+}
+.focus{
+    background:#ffffff;
+    padding:.15rem;
+    margin-bottom: .14rem;
+}
+.focuser li:nth-child(1){
+    display: flex;
+}
+.focuslogo{
+    width:.38rem;
+    height: .38rem;
+    margin-right: .11rem;
+}
+.focusName{
+    font-size: .14rem;
+    color:#000000;
+    font-weight: 600;
+    display: block;
+}
+.releaseTime{
+    font-size: 12px;
+    color:#ababab;
+    display: block;
+}
+.releaseImg{
+   width: 3.3rem;
+    height: 3.59rem;
+    margin-top: .09rem;
+}
+.releaseSite img{
+    width: .14rem;
+    height: .14rem;
+    margin-right: .12rem;
+}
+.focus .releaseSite{
+    font-size: .14rem;
+    color:#7a7a7a;
+    display: flex;
+    margin-top: .1rem;
+}
+.releaseData{
+    font-size: .16rem;
+    color:#000000;
+    line-height: .22rem;
+    margin-top: .11rem;
+    display: block;
+}
+.share{
+    font-size: .12rem;
+    color:#838287 ;
+    display: flex;
+    line-height: .24rem;
+    margin-top: .12rem;
+}
+.share a{
+    display: flex;
+}
+.share a:nth-child(2){
+    margin-left: .2rem;
+    margin-right: 2rem;
+}
+.share img{
+    width: .24rem;
+    height: .24rem;
+}
+.particularsImg{
+    margin-top: .15rem;
+    padding-top: .02rem;
+    padding-bottom:.02rem;
+    background: #f4f3f8;
+    font-size:.07rem;
+    color: #5a5d64;
+    font-weight: 600;
+    display: flex;
+}
+.particularsImg img:nth-child(1){
+    width: .82rem;
+    height: .5rem;
+}
+.aj{
+    width:.25rem;
+    height: .25rem;
+}
+.brand{
+    margin-left: .15rem;
+    margin-right: .36rem;
+    margin-top: .1rem;
+}
+.aj{
+    margin-top:.14rem ;
+}
+.commentContent{
+    margin-top: .22rem;
+    margin-bottom: .13rem;
+}
+.commentContent li{
+    font-size: .12rem;
+    color:#000000 ;
+    line-height: .2rem;
+}
+.commentContent li span{
+    font-size: 10px;
+    color:#000000 ;
+    font-weight: 600;
+    display: inline-block;
+}
+/*底部*/
+footer{
+    width: 100%;
+}
+.fot{
+    border-top: 1px solid #cecac7;
+    display: flex;
+    justify-content: space-around;
+    padding:.05rem 0;
+}
+.fot img{
+    width:.3rem;
+    height: .3rem;
+    margin: 0 auto;
+}
+.fot a{
+    text-align: center;
+
+}
+.fot a span{
+    display:block;
+    font-size: .1rem;
+    font-weight: 600;
+    display: block;
+    color:#000000;
+}

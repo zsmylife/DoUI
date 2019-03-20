@@ -1,0 +1,113 @@
+@charset "utf-8";
+/*css document*/
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,td,input,select,option,textarea{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size: 27.78vw;
+}
+html,body{
+    height: 100%;
+}
+body{
+    font-family:"微软雅黑";
+    display: -webkit-flex;
+    -webkit-flex-direction:column;
+}
+ul,ol{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+img{
+    border:none;
+    display: block;
+}
+/*头部*/
+header{
+    width:100%;
+    padding:.07rem .1rem;
+    border-bottom: 1px solid #ebebf0;
+    background: #ffffff;
+}
+.head{
+    display: flex;
+    align-items: center;
+}
+.fh{
+    width: .2rem;
+    height: .2rem;
+    margin-left: .05rem;
+    margin-right: .13rem;
+}
+.logo{
+    width: .4rem;
+    height:.4rem;
+    margin-right: .1rem;
+}
+.focusName{
+    font-size: .14rem;
+    color:#000000;
+    font-weight: 600;
+    display: block;
+}
+.releaseTime {
+    font-size: 12px;
+    color: #ababab;
+    display: block;
+}
+/*中间*/
+section{
+    width:100%;
+    padding: .1rem .1rem;
+}
+.big{
+    width:3.4rem;
+    margin-bottom: .1rem;
+}
+.min img{
+    width: .51rem;
+    height: .51rem;
+}
+.releaseData{
+    font-size: .16rem;
+    color:#000000;
+    line-height: .22rem;
+    margin-top: .11rem;
+    display: block;
+}
+.share{
+    font-size: .12rem;
+    color:#838287 ;
+    display: flex;
+    line-height: .24rem;
+    margin-top: .12rem;
+}
+.share a{
+    display: flex;
+}
+.share a:nth-child(2){
+    margin-left: .2rem;
+    margin-right: 2rem;
+}
+.share img {
+    width: .24rem;
+    height: .24rem;
+}
+.commentContent{
+    margin-top: .22rem;
+    margin-bottom: .13rem;
+}
+.commentContent li{
+    font-size: .12rem;
+    color:#000000 ;
+    line-height: .2rem;
+}
+.commentContent li span {
+    font-size: 10px;
+    color: #000000;
+    font-weight: 600;
+    display: inline-block;
+}

@@ -1,0 +1,264 @@
+@charset "utf-8";
+/*css document*/
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,td,input,select,option,textarea{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size: 27.78vw;
+}
+html,body{
+    height: 100%;
+}
+body{
+    font-family:"微软雅黑";
+    display: -webkit-flex;
+    -webkit-flex-direction:column;
+}
+ul,ol{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+img{
+    border: none;
+    display: block;
+}
+/*头部*/
+nav{
+    width:100%;
+}
+.nav_a{
+    display: flex;
+    flex: 1;
+    overflow-x: auto;
+}
+.nav_a a:nth-child(1){
+    font-size: .24rem;
+    color: #000000;
+    margin-left: .19rem;
+}
+.nav_a a{
+    font-size: .15rem;
+    color:#aaaabb;
+    font-weight: 600;
+    display: block;
+    margin-right: .29rem;
+    line-height: .45rem;
+    flex-shrink: 0;
+}
+.search{
+    display: flex;
+    margin-bottom: .1rem;
+}
+.search a{
+    display:block;
+    display: flex;
+    width:2.98rem ;
+    height:.29rem;
+    background: #f5f5f9;
+    color:#aaaabb;
+    font-size: .14rem;
+    line-height: .29rem;
+    margin-left: .1rem;
+    margin-right: .15rem;
+    border-radius: 3px;
+}
+.search a img{
+    width: .16rem;
+    height: .15rem;
+    margin:.07rem .04rem 0 .06rem;
+}
+.search img{
+    width: .23rem;
+    height: .28rem;
+}
+section{
+    flex: 1;
+    overflow-x: auto;
+}
+.swiper-slide img{
+    width: 100%;
+}
+.shopClassify{
+    display: flex;
+    justify-content:space-around ;
+    margin-top: .25rem;
+    padding-bottom: .27rem;
+}
+.shopClassify a img{
+    width:.52rem;
+    height: .31rem;
+    margin-bottom: .08rem;
+}
+.shopClassify a{
+    color:#000000;
+    font-size: .14rem;
+    font-weight: 800;
+    text-align: center;
+}
+.shopClassify a span{
+    display: block;
+}
+.poster{
+    width:100% ;
+    height: .7rem;
+    display: flex;
+    border-bottom: 1px solid #ebebf0;
+    border-top: 1px solid #ebebf0;
+}
+.advertisingPosition{
+    width: .7rem;
+    height: .5rem;
+    margin-top: .13rem;
+    margin-left: .1rem;
+}
+.shopName{
+    font-size: .09rem;
+    color:#444750;
+    font-weight: 600;
+    margin-bottom: .04rem;
+}
+.posterContent{
+    margin-top: .23rem;
+
+}
+.presentPic{
+    color:#000000;
+    font-size: .11rem;
+    display: block;
+}
+.originalPic{
+    font-size: .07rem;
+    color:#aaaabb;
+    text-decoration: line-through;
+}
+.particularsImg{
+    width:1rem;
+    height: .7rem;
+    margin-left: .14rem;
+}
+.ActiveContent{
+    display: flex;
+}
+.kan{
+    display: flex;
+    justify-content: space-around;
+    padding-left: .23rem;
+    padding-right: .12rem;
+    padding-bottom: .25rem;
+    border-right: 1px solid #ebebf0;
+    border-bottom: 1px solid #ebebf0;
+}
+.kan ul li:nth-child(1){
+    font-family: "楷体";
+    font-size: .16rem;
+    line-height: .16rem;
+    font-weight: 600;
+    margin-top: .27rem;
+    margin-bottom: .29rem;
+}
+.kan ul li:nth-child(2){
+    color:#ff4455;
+    font-size: .14rem;
+    line-height: .14rem;
+    font-weight: 600;
+    margin-bottom: .07rem;
+}
+.kan ul li:nth-child(3){
+    color:#757575;
+    font-size: .07rem;
+    text-decoration: line-through;
+}
+.tu{
+    width: 1rem;
+    height: .5rem;
+    margin-top: .51rem;
+}
+.tiao{
+    width: 3.23rem;
+    height:.37rem;
+    margin: 0 auto;
+}
+.goodsList{
+    display: flex;
+    flex-wrap: wrap;
+    background: #f5f5f9;
+}
+.jieshao img{
+    width:1.78rem;
+    height: 2.31rem;
+
+}
+.goodsList li{
+    width: 1.49rem;
+    height: 2.31rem;
+    background: #ffffff;
+    border-top: 3px solid #ebebf0;
+}
+.goodsList .jieshao{
+    width:1.78rem;
+}
+.goodsList li:nth-child(2n){
+    border-left: 1px solid #ebebf0;
+}
+.goodsParticulars{
+    padding-right: .15rem;
+    padding-left:.15rem;
+}
+.goodsParticulars img{
+    width:1.5rem;
+    height: .82rem;
+    margin-top: .4rem;
+    margin-bottom: .34rem;
+
+}
+.goodsIntroduce{
+    font-size:.12rem;
+    color:#30333f;
+    display: block;
+    line-height: .16rem;
+}
+.goodsP{
+    display: flex;
+    margin-top: .1rem;
+    justify-content: space-between;
+}
+.goodsPic{
+    font-size: .1rem;
+    color:#000000;
+    font-weight: 600;
+    display:block;
+}
+.buyNum{
+    font-size: .12rem;
+    color:#7f7f8e;
+    display:block;
+}
+/*底部*/
+footer{
+    width: 100%;
+}
+.fot{
+    border-top: 1px solid #cecac7;
+    display: flex;
+    justify-content: space-around;
+    padding:.05rem 0;
+}
+.fot img{
+    width:.3rem;
+    height: .3rem;
+    margin:0 auto;
+}
+.fot a{
+    text-align: center;
+
+}
+.fot a span{
+    display:block;
+    font-size: .1rem;
+    font-weight: 600;
+    display: block;
+    color:#000000;
+}
